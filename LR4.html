@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>LR4</title>
+    <style type="text/css">
+        #dd1 {
+            position: absolute;
+            right: auto;
+            bottom: auto;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+
+        #table1 {
+            border-collapse: collapse;
+            font-size: 40px;
+            cursor: pointer;    
+        }
+
+
+    td {
+      border: 1px solid black;
+    }
+
+    #th1{
+        width: 200px;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <h1>Заказ</h1>
+        <div>
+            <label for="name">Наименование</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="cost">Стоимость</label>
+            <input type="number" id="cost">
+        </div>
+        <button type="button" onclick="work()">Добавить</button>
+        <button type="button" onclick="Sum_Output()">Вывести сумму заказа</button>
+
+        <br>
+        <div id="dd1">
+        </div>
+        <br>  <br>  <br>
+    </form>
+
+
+<h1>
+Таблица товаров
+</h1>
+
+
+
+<h2>Название          Цена</H2>
+
+
+    <table id="table1">
+    </table>
+
+    <br>
+
+
+    <H1>
+        Ваш Заказ
+    </H1>
+
+<H2 id="hhh">
+</H2>
+
+
+
+
+      <script src="LR4JS.js"> </script>
+
+
+
+
+</body>
+
+</html>
